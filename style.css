@@ -1,0 +1,99 @@
+
+  .grid-container {
+    display: grid;
+    gap: 10px;
+    height: auto;
+    background-color: rgb(219, 212, 212);
+    padding: 20px;
+  }
+  
+  .grid-item {
+    background-color: rgb(10, 241, 241);
+    padding: 20px;
+    
+  }
+  
+  .item1 {
+    grid-column: 1;
+    grid-row: 1;
+    height:auto;
+    width: 250px;
+    border-style:double;
+    border-color: rgb(17, 12, 9);
+    border-top-left-radius: 50px;
+    align-items: flex-start;
+  }
+  .item2 {
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 2;
+    height:160px;
+    width:1060px;
+    border-style:double;
+    border-color: rgb(17, 15, 14);
+    border-top-right-radius: 50px;
+    
+  }
+  .head{
+    text-align: center;
+  }
+  
+  .item3 {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+  }
+  .image{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  .imag{
+    position: relative;
+    align-items: center;
+  }
+  .text{
+    border-width: 10px;
+    color: red;
+    font-weight: 400;
+  }
+  .glyphicon glyphicon-earphone{
+    font-family: arial;
+    margin-left: 20px;
+  }
+  .material-icons{
+    font-family: arial;
+  }
+  .grid-item item2{
+    font-family: arial;
+    margin-left: 20px;
+  }
+  .html{
+    text-align: left;
+  }
+  .con{
+    text-align: center;
+  }
+  .skill{
+    text-align: center;
+  }
+  .checked{
+    color: rgb(224, 35, 10);
+  }
+  .summ{
+    margin-top: 20px;
+  }
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: auto; 
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: auto;
+    }
+  }
